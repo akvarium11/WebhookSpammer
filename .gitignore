@@ -1,0 +1,40 @@
+# Build outputs
+x64/
+x86/
+Debug/
+Release/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.iobj
+*.ipdb
+*.recipe
+*.tlog
+*.log
+*.lastbuildstate
+*.FileListAbsolute.txt
+*.vcxproj.user
+
+# vcpkg (local manifest mode installs - large, reproducible via vcpkg.json)
+vcpkg_installed/
+vcpkg/
+.vs/
+
+# IDE
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# CMake / other
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# OS
+Thumbs.db
+.DS_Store

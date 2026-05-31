@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "webhookspammer",
+  "version": "1.0.0",
+  "description": "Simple Discord webhook message sender",
+  "dependencies": [
+    {
+      "name": "curl",
+      "default-features": false,
+      "features": [
+        "sspi"
+      ]
+    }
+  ]
+}
