@@ -1,6 +1,6 @@
 # WebhookSpammer
 
-Simple Discord webhook message sender (C++ + libcurl).
+Simple Discord webhook message sender (C++ & libcurl).
 
 ## Building
 
