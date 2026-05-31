@@ -38,3 +38,9 @@ cmake_install.cmake
 # OS
 Thumbs.db
 .DS_Store
+
+# Sensitive / personal scripts (Telegram bot token, etc.)
+notify-telegram.ps1
+*.telegram*.ps1
+secrets.ps1
+*.token*
